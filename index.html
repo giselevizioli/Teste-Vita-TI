@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Login</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse header">
+			<img src="img/logo.png">
+			<div>
+				<input type="button" class="glyphicon glyphicon-user btn btn-info" name="contato" value="Contato">
+				<input type="button" onclick="document.getElementById('id01').style.display='block'" class="glyphicon glyphicon-log-in btn btn btn-outline-light" name="login" value="Login">
+			</div>
+		</nav>
+	</header>
+	<div class="main-container">
+		<h1>Teste suas habilidades em Marketing Digital e melhore seu desempenho!</h1>
+		<div class="secondary-container">
+			<div class="apresentacao">
+				<img src="img/socorro.jpg">
+				<h1>Olá! Eu sou a Socorro e tô aqui pra te ajudar!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nostrum tenetur doloremque, hic. Dolores temporibus magni quod atque iusto magnam!</p>
+				<p>Vem comigo que eu te explico!</p>
+				<p>É só se cadastrar!</p>
+			</div>
+			<div class="cadastro">
+				<h1>Cadastre-se!</h1>
+				<br>
+				<form action="/cadastro.html" method="get">
+					<div class="form-content">
+						<div>
+							<input type="text" id="nome" placeholder="Nome">
+							<br>
+						</div>
+						<div>
+							<br>
+							<input type="text" id="email" placeholder="E-mail">
+							<br>
+						</div>
+						<div>
+							<br>
+							<input type="password" id="senha" placeholder="Senha">
+							<br>
+						</div>
+						<div>
+							<br>
+							<input type="password" id="confirmar-senha" placeholder="Confirmar senha">
+							<br>
+						</div>
+						<div>
+							<br>
+							<input type="button" name="Cadastrar" value="Cadastrar" onClick=window.location="cadastro.html">
+							<br>
+						</div>
+						<br>
+						<a href="#">Usar minha conta do google</a>
+						<br>
+						<!-- modal -->
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Já sou cadastrado</button>
+					</div>
+					<div id="id01" class="modal">
+		  				<form class="modal-content animate" action="/action_page.php">
+		    				<div class="imgcontainer">
+		      					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+								<h1>Insira seus dados</h1>
+							</div>
+		    				<div class="container">
+								<input type="text" placeholder="E-mail" name="uname" required>
+								<input type="password" placeholder="Senha" name="psw" required>
+								<button type="submit">Entrar</button>
+							</div>
+		 		 		</form>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

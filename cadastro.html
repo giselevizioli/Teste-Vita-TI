@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse header">
+			<img src="img/logo.png">
+			<div>
+				<input type="button" class="glyphicon glyphicon-user btn btn-info" name="contato" value="Contato">
+				<input type="button" onclick="document.getElementById('id01').style.display='block'" class="glyphicon glyphicon-log-in btn btn btn-outline-light" name="login" value="Login">
+			</div>
+		</nav>
+	</header>
+	<div class="finalizar-cadastro">
+		<h1>Finalizar cadastro</h1>
+		<h2>Me considero:</h2>
+		<div class="categorias">
+			<input type="radio" name="Junior" value="Junior">
+			<input type="radio" name="Pleno" value="Pleno">
+			<input type="radio" name="Sênior" value="Sênior">
+		</div>
+		<div class="form-fields">
+			<input type="text" name="nome" placeholder="Nome">
+			<br>
+			<input type="text" name="apelido" placeholder="Como você prefere ser chamado(a)?">
+			<br>
+			<input type="email" name="email" placeholder="E-mail">
+			<br>
+			<input type="password" name="senha" placeholder="Senha">
+			<br>
+			<input type="password" name="confirmar-senha" placeholder="Confirmar Senha">
+			<br>
+			<input class="btn btn-success" type="button" name="cadastrar" value="Cadastrar">
+			<br>
+		</div>
+	</div>
+</body>
+</html>
