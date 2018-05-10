@@ -1,26 +1,11 @@
-/* inputs com tamanho full */
-input[type=text], input[type=password] {
+/* inputs */
+input[type=text], input[type=password], input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-}
-
-/* estilo para o botão */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    opacity: 0.8;
 }
 
 .container {
@@ -34,7 +19,7 @@ span.psw {
 
 /* background do modal */
 .modal {
-    display: none; /* escondido por padrão */
+    display: none; /* hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
