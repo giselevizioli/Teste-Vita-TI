@@ -42,11 +42,11 @@ h2 {
 
 /* sprites para os radio buttons */
 
-input[type="checkbox"] {
+input[type="radio"] {
 	display: none;
 }
 
-input[type="checkbox"] + label span.jr {
+input[type="radio"] + label span.jr {
 	display: inline-block;
 	width: 150px;
 	height: 150px;
@@ -56,11 +56,11 @@ input[type="checkbox"] + label span.jr {
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + label span.jr {
+input[type="radio"]:checked + label span.jr {
 	background: url(../img/junior-on.png) left top no-repeat;;
 }
 
-input[type="checkbox"] + label span.pl {
+input[type="radio"] + label span.pl {
 	display: inline-block;
 	width: 150px;
 	height: 150px;
@@ -70,11 +70,11 @@ input[type="checkbox"] + label span.pl {
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + label span.pl {
+input[type="radio"]:checked + label span.pl {
 	background: url(../img/pleno-on.png) left top no-repeat;;
 }
 
-input[type="checkbox"] + label span.sr {
+input[type="radio"] + label span.sr {
 	display: inline-block;
 	width: 150px;
 	height: 150px;
@@ -84,7 +84,7 @@ input[type="checkbox"] + label span.sr {
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + label span.sr {
+input[type="radio"]:checked + label span.sr {
 	background: url(../img/senior-on.png) left top no-repeat;;
 }
 
