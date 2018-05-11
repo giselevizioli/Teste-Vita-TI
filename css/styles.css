@@ -150,6 +150,9 @@ input[type="radio"]:checked + label span.sr {
 .form-fields {
 	display: -ms-grid;
 	display: grid;
+	width: 25vw;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .finalizar-cadastro>h1 {
@@ -157,3 +160,26 @@ input[type="radio"]:checked + label span.sr {
 	padding: 30px;
 }
 
+.imgcontainer>h1 {
+	text-align: center;
+}
+
+/* MEDIA QUERIES PARA RESOLUÇÕES DE ATÉ 1088PX */
+
+@media screen and (max-width: 68em) {
+	.secondary-container {
+		flex-direction: column;
+		justify-content: space-around;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+	}
+
+	.form-fields {
+		width: 50vw;
+	}
+
+	.form-fields {
+		width: 70vw;
+	}
+}
