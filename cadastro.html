@@ -23,9 +23,12 @@
 		<h1>Finalizar cadastro</h1>
 		<h2>Me considero:</h2>
 		<div class="categorias">
-			<input type="radio" name="Junior" value="Junior">
-			<input type="radio" name="Pleno" value="Pleno">
-			<input type="radio" name="Sênior" value="Sênior">
+			<input type="checkbox" name="junior" id="junior">
+			<label for="junior"><span class="jr"></span></label>
+			<input type="checkbox" name="pleno" id="pleno">
+			<label for="pleno"><span class="pl"></span></label>
+			<input type="checkbox" name="senior" id="senior">
+			<label for="senior"><span class="sr"></span></label>
 		</div>
 		<div class="form-fields">
 			<input type="text" name="nome" placeholder="Nome">
@@ -47,7 +50,7 @@
 				<div class="container">
 					<input type="text" placeholder="E-mail" required>
 					<input type="password" placeholder="Senha" required>
-					<button class="btn btn-primary" type="submit">Entrar</button>
+					<button class="btn btn-warning" type="submit">Entrar</button>
 				</div>
 			</div>
 		</form>

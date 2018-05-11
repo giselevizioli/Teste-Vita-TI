@@ -40,6 +40,54 @@ h2 {
 	background-color: #c6eef6;
 }
 
+/* sprites para os radio buttons */
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label span.jr {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: url(../img/junior-off.png) left top no-repeat;
+	margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label span.jr {
+	background: url(../img/junior-on.png) left top no-repeat;;
+}
+
+input[type="checkbox"] + label span.pl {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: url(../img/pleno-off.png) left top no-repeat;
+	margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label span.pl {
+	background: url(../img/pleno-on.png) left top no-repeat;;
+}
+
+input[type="checkbox"] + label span.sr {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: url(../img/senior-off.png) left top no-repeat;
+	margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label span.sr {
+	background: url(../img/senior-on.png) left top no-repeat;;
+}
+
 /* redimensionando a imagem para ficar responsiva */
 
 .apresentacao>img {
