@@ -12,11 +12,6 @@ input[type=text], input[type=password], input[type=email] {
     padding: 16px;
 }
 
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
 /* background do modal */
 .modal {
     display: none; /* hidden by default */
@@ -34,10 +29,11 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #93c03f;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
+    border: none;
     width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
 }
 
 /* The Close Button (x) */

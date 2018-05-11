@@ -1,9 +1,11 @@
+document.addEventListener('DOMContentLoaded', ativaBotaoCadastrar)
+
 // chamar o modal
 var modal = document.getElementById('id01');
 
-// fechar o modal quando o usuário clicar fora
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+function ativaBotaoCadastrar(){
+	document.getElementById('signup').addEventListener('click', function(){
+	window.location="cadastro.html"
+})
 }
+

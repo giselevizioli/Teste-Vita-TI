@@ -17,12 +17,39 @@ h2 {
 	background: #02a6c9;
 }
 
+.cadastro>h1 {
+	color: #ffffff;
+	padding-top: 1.5vw;
+}
 
+#signup {
+	background-color: #93c03f;
+	margin-top: 1.5vw;
+	box-shadow: 2px 2px #799e34;
+	border: none;
+}
+
+.form-content>button {
+	color: #ffffff;
+	background-color: #80d1e4;
+	border: none;
+	cursor: pointer;
+}
+
+.background-container {
+	background-color: #c6eef6;
+}
 
 /* redimensionando a imagem para ficar responsiva */
 
 .apresentacao>img {
 	width: 20vw;
+}
+
+/* plano de fundo do modal de login */
+#id01.modal {
+	background-color: #02a6c9;
+	background-color: rgba(0,169,206,.7);
 }
 
 .main-container {
